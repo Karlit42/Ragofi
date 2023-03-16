@@ -1,0 +1,90 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 470px;
+    height: auto;
+}
+
+a img {
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+}
+
+.sous-bandeau {
+    background-color: #183a64;
+    font-size: medium;
+}
+
+.sous-bandeau a {
+    padding: 2px;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.sous-bandeau img {
+    width: 40px;
+    height: auto;
+}
+
+.bas img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bandeau {
+    width: 100%;
+    background-color: #0a2f5d;
+}
+
+.reseaux {
+    position: absolute;
+    gap: 10px;
+    left: 8%;
+    opacity: 1;
+
+}
+
+.container {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sous-bandeau .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.drapeau {
+    background-color: #183a64;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+}
+
